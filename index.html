@@ -15,11 +15,21 @@
             <img class="logo__img" src="./img/logo.svg" alt="Brainwave" />
           </a>
         </div>
-        <nav class="nav">
-          <a class="nav__link" href="#">Demos </a>
-          <a class="nav__link" href="#">Pages </a>
-          <a class="nav__link" href="#">Support</a>
-          <a class="nav__link" href="#">Contact</a>
+        <nav>
+          <ul class="nav">
+            <li class="nav__block">
+              <a class="nav__link" href="#">Demos </a>
+            </li>
+            <li class="nav__block">
+              <a class="nav__link" href="#">Pages </a>
+            </li>
+            <li class="nav__block">
+              <a class="nav__link" href="#">Support </a>
+            </li>
+            <li class="nav__block">
+              <a class="nav__link" href="#">Contact </a>
+            </li>
+          </ul>
         </nav>
         <div class="getStart">
           <button class="getStart__btn">Get started free</button>
@@ -58,34 +68,36 @@
       </section>
       <section class="features">
         <div class="features__container">
-          <div class="features__group">
-            <img class="features__img" src="img/code.svg" alt="code" />
-            <h3 class="features__title">Project management</h3>
-            <p class="features__text">
-              With lots of unique blocks, you can easily build a page without
-              coding. Build your next landing page.
-            </p>
-          </div>
-          <div class="features__group">
-            <img
-              class="features__img"
-              src="img/countdown-2.svg"
-              alt="countdown"
-            />
-            <h3 class="features__title">Time tracking</h3>
-            <p class="features__text">
-              With lots of unique blocks, you can easily build a page without
-              coding. Build your next landing page.
-            </p>
-          </div>
-          <div class="features__group">
-            <img class="features__img" src="img/Shape.svg" />
-            <h3 class="features__title">Beautiful mobile app</h3>
-            <p class="features__text">
-              With lots of unique blocks, you can easily build a page without
-              coding. Build your next landing page.
-            </p>
-          </div>
+          <ul class="features__list">
+            <li class="features__group">
+              <img class="features__img" src="img/code.svg" alt="code" />
+              <h3 class="features__title">Project management</h3>
+              <p class="features__text">
+                With lots of unique blocks, you can easily build a page without
+                coding. Build your next landing page.
+              </p>
+            </li>
+            <li class="features__group">
+              <img
+                class="features__img"
+                src="img/countdown-2.svg"
+                alt="countdown"
+              />
+              <h3 class="features__title">Time tracking</h3>
+              <p class="features__text">
+                With lots of unique blocks, you can easily build a page without
+                coding. Build your next landing page.
+              </p>
+            </li>
+            <li class="features__group">
+              <img class="features__img" src="img/Shape.svg" />
+              <h3 class="features__title">Beautiful mobile app</h3>
+              <p class="features__text">
+                With lots of unique blocks, you can easily build a page without
+                coding. Build your next landing page.
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="content-start">
@@ -118,22 +130,26 @@
       </section>
       <section class="facts">
         <div class="facts__container">
-          <div class="facts__block">
-            <div class="facts__block-icon">1M+</div>
-            <p class="facts__block-text">Customers visit Albino every months</p>
-          </div>
-          <div class="facts__block">
-            <div class="facts__block-icon">93%</div>
-            <p class="facts__block-text">
-              Satisfaction rate from our customers.
-            </p>
-          </div>
-          <div class="facts__block">
-            <div class="facts__block-icon">4.9</div>
-            <p class="facts__block-text">
-              Average customer ratings out of 5.00!
-            </p>
-          </div>
+          <ul class="facts__block">
+            <li class="facts__block-inner">
+              <p class="facts__block-icon">1M+</p>
+              <p class="facts__block-text">
+                Customers visit Albino every months
+              </p>
+            </li>
+            <li class="facts__block-inner">
+              <div class="facts__block-icon">93%</div>
+              <p class="facts__block-text">
+                Satisfaction rate from our customers.
+              </p>
+            </li>
+            <li class="facts__block-inner">
+              <div class="facts__block-icon">4.9</div>
+              <p class="facts__block-text">
+                Average customer ratings out of 5.00!
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="content-projects">
@@ -153,8 +169,8 @@
                 alt="content-project"
               />
             </div>
-            <div class="content-projects__right">
-              <div class="content-projects__info">
+            <ul class="content-projects__right">
+              <li class="content-projects__info">
                 <div class="content-projects__nums">1</div>
                 <div>
                   <h3 class="content-projects__info-title">Create a project</h3>
@@ -163,8 +179,8 @@
                     without coding.
                   </p>
                 </div>
-              </div>
-              <div class="content-projects__info">
+              </li>
+              <li class="content-projects__info">
                 <div class="content-projects__nums">2</div>
                 <div>
                   <h3 class="content-projects__info-title">
@@ -175,8 +191,8 @@
                     without coding.
                   </p>
                 </div>
-              </div>
-              <div class="content-projects__info">
+              </li>
+              <li class="content-projects__info">
                 <div class="content-projects__nums">3</div>
                 <div>
                   <h3 class="content-projects__info-title">
@@ -187,32 +203,39 @@
                     without coding.
                   </p>
                 </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
       <section class="testimonial">
         <div class="testimonial__container">
-          <div class="testimonial__card">
-            <img class="testimonial__avatar" src="img/Corey.png" alt="avatar" />
-            <h3 class="testimonial__title">“You made it so simple”</h3>
-            <p class="testimonial__text">
-              My new site is so much faster and easier to work with than my old
-              site.
-            </p>
-            <p class="testimonial__name">Corey Valdez</p>
-            <p class="testimonial__position">Founder at Zenix</p>
-          </div>
-          <div class="testimonial__card">
-            <img class="testimonial__avatar" src="img/Ian.png" alt="avatar" />
-            <h3 class="testimonial__title">“Simply the best”</h3>
-            <p class="testimonial__text">
-              Better than all the rest. I’d recommend this product to beginners.
-            </p>
-            <p class="testimonial__name">Ian Klein</p>
-            <p class="testimonial__position">Digital Marketer</p>
-          </div>
+          <ul class="testimonial__list">
+            <li class="testimonial__card">
+              <img
+                class="testimonial__avatar"
+                src="img/Corey.png"
+                alt="avatar"
+              />
+              <h3 class="testimonial__title">“You made it so simple”</h3>
+              <blockquote class="testimonial__text">
+                My new site is so much faster and easier to work with than my
+                old site.
+              </blockquote>
+              <p class="testimonial__name">Corey Valdez</p>
+              <p class="testimonial__position">Founder at Zenix</p>
+            </li>
+            <li class="testimonial__card">
+              <img class="testimonial__avatar" src="img/Ian.png" alt="avatar" />
+              <h3 class="testimonial__title">“Simply the best”</h3>
+              <blockquote class="testimonial__text">
+                Better than all the rest. I’d recommend this product to
+                beginners.
+              </blockquote>
+              <p class="testimonial__name">Ian Klein</p>
+              <p class="testimonial__position">Digital Marketer</p>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="pricing">
@@ -224,38 +247,44 @@
               coding. Build your next landing page.
             </p>
           </div>
-          <div class="pricing__body">
-            <article class="pricing__card">
-              <h3 class="pricing__status">BASIC</h3>
-              <div class="pricing__price">$29</div>
-              <p class="pricing__purchase">One time purchase</p>
-              <p class="pricing__purchase-info">
-                With lots of unique blocks, you can easily build a page without
-                coding. Build your next landing page.
-              </p>
-              <button class="pricing__button">Get started for free</button>
-            </article>
-            <article class="pricing__card">
-              <h3 class="pricing__status">STANDARD</h3>
-              <div class="pricing__price">$49</div>
-              <p class="pricing__purchase">One time purchase</p>
-              <p class="pricing__purchase-info">
-                With lots of unique blocks, you can easily build a page without
-                coding. Build your next landing page.
-              </p>
-              <button class="pricing__button">Get started for free</button>
-            </article>
-            <article class="pricing__card">
-              <h3 class="pricing__status">Premium</h3>
-              <div class="pricing__price">$99</div>
-              <p class="pricing__purchase">One time purchase</p>
-              <p class="pricing__purchase-info">
-                With lots of unique blocks, you can easily build a page without
-                coding. Build your next landing page.
-              </p>
-              <button class="pricing__button">Get started for free</button>
-            </article>
-          </div>
+          <ul class="pricing__body">
+            <li>
+              <article class="pricing__card">
+                <h3 class="pricing__status">BASIC</h3>
+                <div class="pricing__price">$29</div>
+                <p class="pricing__purchase">One time purchase</p>
+                <p class="pricing__purchase-info">
+                  With lots of unique blocks, you can easily build a page
+                  without coding. Build your next landing page.
+                </p>
+                <button class="pricing__button">Get started for free</button>
+              </article>
+            </li>
+            <li>
+              <article class="pricing__card">
+                <h3 class="pricing__status">STANDARD</h3>
+                <div class="pricing__price">$49</div>
+                <p class="pricing__purchase">One time purchase</p>
+                <p class="pricing__purchase-info">
+                  With lots of unique blocks, you can easily build a page
+                  without coding. Build your next landing page.
+                </p>
+                <button class="pricing__button">Get started for free</button>
+              </article>
+            </li>
+            <li>
+              <article class="pricing__card">
+                <h3 class="pricing__status">Premium</h3>
+                <div class="pricing__price">$99</div>
+                <p class="pricing__purchase">One time purchase</p>
+                <p class="pricing__purchase-info">
+                  With lots of unique blocks, you can easily build a page
+                  without coding. Build your next landing page.
+                </p>
+                <button class="pricing__button">Get started for free</button>
+              </article>
+            </li>
+          </ul>
           <div class="pricing__footer">
             <div class="pricing__faq">
               <div>
@@ -359,16 +388,18 @@
           </button>
         </div>
       </section>
-      <footer class="footer">
-        <div class="footer__container">
-          <div class="footer__logo">
-            <a href="#">
-              <img class="logo__img" src="./img/logo.svg" alt="Brainwave" />
-            </a>
-            <p class="footer__logo-text">
-              With lots of unique blocks, you can easily build a page without
-              coding. Build your next landing page.
-            </p>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <a href="#">
+            <img class="logo__img" src="./img/logo.svg" alt="Brainwave" />
+          </a>
+          <p class="footer__logo-text">
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next landing page.
+          </p>
+          <nav>
             <ul class="footer__logo-icons">
               <li>
                 <a href="#">
@@ -406,37 +437,45 @@
                 /></a>
               </li>
             </ul>
-          </div>
-          <div class="footer__company">
-            <h3 class="footer__title">Company</h3>
-            <a class="footer__link" href="#">About us</a>
-            <a class="footer__link" href="#">Contact us</a>
-            <a class="footer__link" href="#">Careers</a>
-            <a class="footer__link" href="#">Press</a>
-          </div>
-          <div class="footer__product">
-            <h3 class="footer__title">Product</h3>
-            <a class="footer__link" href="#">Features</a>
-            <a class="footer__link" href="#">Pricing</a>
-            <a class="footer__link" href="#">News</a>
-            <a class="footer__link" href="#">Help desk</a>
-            <a class="footer__link" href="#">Support</a>
-          </div>
-          <div class="footer__services">
-            <h3 class="footer__title">Services</h3>
-            <a class="footer__link" href="#">Digital Marketing</a>
-            <a class="footer__link" href="#">Content Writing</a>
-            <a class="footer__link" href="#">SEO for Business</a>
-            <a class="footer__link" href="#">UI Design</a>
-          </div>
-          <div class="footer__legal">
-            <h3 class="footer__title">Legal</h3>
-            <a class="footer__link" href="#">Privacy Policy</a>
-            <a class="footer__link" href="#">Terms & Conditions</a>
-            <a class="footer__link" href="#">Return Policy</a>
-          </div>
+          </nav>
         </div>
-      </footer>
-    </main>
+        <ul class="footer__company">
+          <li>
+            <h3 class="footer__title">Company</h3>
+          </li>
+          <li>
+            <a class="footer__link" href="#">About us</a>
+          </li>
+          <li><a class="footer__link" href="#">Contact us</a></li>
+          <li><a class="footer__link" href="#">Careers</a></li>
+          <li><a class="footer__link" href="#">Press</a></li>
+        </ul>
+        <ul class="footer__product">
+          <li><h3 class="footer__title">Product</h3></li>
+          <li><a class="footer__link" href="#">Features</a></li>
+          <li><a class="footer__link" href="#">Pricing</a></li>
+          <li><a class="footer__link" href="#">News</a></li>
+          <li><a class="footer__link" href="#">Help desk</a></li>
+          <li><a class="footer__link" href="#">Support</a></li>
+        </ul>
+        <ul class="footer__services">
+          <li><h3 class="footer__title">Services</h3></li>
+          <li><a class="footer__link" href="#">Digital Marketing</a></li>
+          <li><a class="footer__link" href="#">Content Writing</a></li>
+          <li><a class="footer__link" href="#">SEO for Business</a></li>
+          <li>
+            <a class="footer__link" href="#">UI Design</a>
+          </li>
+        </ul>
+        <ul class="footer__legal">
+          <li><h3 class="footer__title">Legal</h3></li>
+          <li><a class="footer__link" href="#">Privacy Policy</a></li>
+          <li>
+            <a class="footer__link" href="#">Terms & Conditions</a>
+          </li>
+          <li><a class="footer__link" href="#">Return Policy</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

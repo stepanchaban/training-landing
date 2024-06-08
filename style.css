@@ -19,6 +19,14 @@ body {
   color: #161c2d;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 img {
   display: block;
 }
@@ -57,19 +65,25 @@ img {
   color: #161c2d;
 }
 
-.nav__link {
+.nav__block {
   margin-right: 40px;
-  color: #161c2d;
-  text-decoration: none;
+  list-style: none;
   transition: 0.2s;
 }
 
-.nav__link:hover {
+.nav__link {
+  color: #161c2d;
+}
+
+.nav__block:hover {
   transform: translateY(-2px);
+}
+
+.nav__link:hover {
   color: #473bf0;
 }
 
-.nav__link:last-child {
+.nav__block:last-child {
   margin-right: 0;
 }
 
@@ -88,6 +102,8 @@ img {
   cursor: pointer;
   border: none;
   transition: 0.2s;
+  font-family: 'Gilroy-Bold', sans-serif;
+  text-align: center;
 }
 
 .getStart__btn:hover {
@@ -189,6 +205,9 @@ img {
 .features__container {
   width: 1054px;
   margin: 0 auto;
+}
+
+.features__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -259,15 +278,17 @@ img {
 .facts__container {
   width: 1050px;
   margin: 0 auto;
+}
+
+.facts__block {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 90px;
 }
 
-.facts__block {
+.facts__block-inner {
   display: flex;
-  align-items: center;
   width: 290px;
 }
 
@@ -371,6 +392,9 @@ img {
 .testimonial__container {
   width: 1110px;
   margin: 0 auto;
+}
+
+.testimonial__list {
   display: flex;
   justify-content: center;
   gap: 30px;
